@@ -1,7 +1,9 @@
-import React, {useState} from 'react';
+import React from 'react';
 
 import './global.css';
 import './App.css';
+import './Sidebar.css';
+import './Main.css';
 
 function App() {
   return(
@@ -36,7 +38,41 @@ function App() {
       </form>
       </aside>
       <main>
-
+        <ul>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/22122763?s=400&v=4" alt="Github Profile"/>
+              <div className="user-info">
+                <strong>Diovan Marques</strong>
+                <span>C#, Unity</span>
+              </div>
+            </header>
+            <p>Diovan Marques maneiro</p>
+            <a href="https://github.com/DiovanM">Acessar perfil no GitHub</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/22122763?s=400&v=4" alt="Github Profile"/>
+              <div className="user-info">
+                <strong>Diovan Marques</strong>
+                <span>C#, Unity</span>
+              </div>
+            </header>
+            <p>Diovan Marques maneiro</p>
+            <a href="https://github.com/DiovanM">Acessar perfil no GitHub</a>
+          </li>
+          <li className="dev-item">
+            <header>
+              <img src="https://avatars2.githubusercontent.com/u/22122763?s=400&v=4" alt="Github Profile"/>
+              <div className="user-info">
+                <strong>Diovan Marques</strong>
+                <span>C#, Unity</span>
+              </div>
+            </header>
+            <p>Diovan Marques maneiro</p>
+            <a href="https://github.com/DiovanM">Acessar perfil no GitHub</a>
+          </li>
+        </ul>
       </main>
     </div>
   );
